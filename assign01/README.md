@@ -2,7 +2,7 @@
 
 ## Overview
 
-In blockchain systems, consensus and immutability do not begin with tokens or coins—they begin with **bytes**, **encodings**, **canonical data representation**, and **cryptographic hash functions**.
+In blockchain systems, consensus and immutability do not begin with tokens or coins - they begin with **bytes**, **encodings**, **canonical data representation**, and **cryptographic hash functions**.
 
 `hashlab` is a command-line tool built in Python 3.11+ using the trusted standard-library implementation of SHA-256 (`hashlib.sha256`). It provides cryptographic diagnostics, demonstrates strict byte correctness and determinism, simulates the avalanche effect, enforces deterministic JSON canonicalization, and processes files of arbitrary size as streams without loading them into memory.
 
