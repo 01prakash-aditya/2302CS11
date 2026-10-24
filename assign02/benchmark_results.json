@@ -1,0 +1,35 @@
+[
+  {
+    "n_leaves": 8,
+    "build_avg_s": 8.153999224305152e-05,
+    "build_min_s": 5.029997555539012e-05,
+    "prove_avg_s": 1.5199999324977398e-05,
+    "prove_min_s": 5.1000097300857306e-06,
+    "proof_siblings": 3,
+    "proof_json_bytes": 409,
+    "root_hex": "47623ca84018b2f7787463c6a60d6ee032b669e8cf7d3fa24ac7563be20fcb6c",
+    "trials": 5
+  },
+  {
+    "n_leaves": 1024,
+    "build_avg_s": 0.0034920799953397363,
+    "build_min_s": 0.00279279999085702,
+    "prove_avg_s": 9.34000127017498e-06,
+    "prove_min_s": 5.099980626255274e-06,
+    "proof_siblings": 10,
+    "proof_json_bytes": 1233,
+    "root_hex": "1f7971d2c932340c022e1439117275dcf62a94f49ba4ac98472a528522f06d4e",
+    "trials": 5
+  },
+  {
+    "n_leaves": 131072,
+    "build_avg_s": 0.4524766200047452,
+    "build_min_s": 0.4147569999913685,
+    "prove_avg_s": 1.3179995585232973e-05,
+    "prove_min_s": 7.800001185387373e-06,
+    "proof_siblings": 17,
+    "proof_json_bytes": 2056,
+    "root_hex": "24f66b8016cc6b85dc6f05ca83a9e9960e7908dccea5cb30e351f366a0b7cfa1",
+    "trials": 5
+  }
+]

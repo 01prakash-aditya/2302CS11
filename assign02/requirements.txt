@@ -1,0 +1,4 @@
+# Merkle Tree Library - Dependencies
+# No external dependencies required; uses Python standard library only.
+# The following are optional, for development/testing:
+# pytest>=7.0       # for running tests
