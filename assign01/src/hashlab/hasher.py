@@ -4,7 +4,6 @@ import base64
 import hashlib
 from pathlib import Path
 
-
 def hash_bytes(data: bytes) -> tuple[int, str, str]:
     digest = hashlib.sha256(data).digest()
     return len(data), digest.hex(), base64.b64encode(digest).decode("ascii")
@@ -31,7 +30,6 @@ def hash_file(filepath: str | Path, chunk_size: int = 65536) -> tuple[int, str, 
 
     digest = hasher.digest()
     return total_bytes, digest.hex(), base64.b64encode(digest).decode("ascii")
-
 
 def parse_hex(hex_str: str) -> bytes:
     cleaned = hex_str.strip()
